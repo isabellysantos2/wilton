@@ -11,6 +11,6 @@ menu.onclick = () => {
     navmenu.classList.toggle('open')
 }
 const btn = document.querySelector("btn")
-btn.addEventListener('click', ()=>{
+btn.addEventListener('click', () => {
 SecurityPolicyViolat('header')
 })

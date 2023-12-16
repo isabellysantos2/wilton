@@ -7,6 +7,11 @@
     list-style: none;
     text-decoration: none;
 }
+.body{
+   width: auto;
+   height: auto;
+align-items: center;
+}
 
 
  header{
@@ -237,9 +242,15 @@
             font-size: 14px;
             font-weight: 600;
          }
+          /* .container{
+            width: 80%;
+            height: 80vh;
+            display: flex;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, .212); */
 
-       
-
+          
+         
+      
             .client-reviews{
                background-color: #fff;
             }
@@ -262,10 +273,11 @@
                   padding: 1rem;        
                
                }
-               .form-image{
+               .form-imag img{
                   width: 31rem;
 
                }
+               
                .forma{
                   width: 50%;
                   display: flex;
@@ -282,15 +294,10 @@
                   justify-content: space-between;
                }
              .login-button{
-               width: 50px;
-              position: relative;
-              height: 50px;
-              background: #000;
+              align-items: center;
               display: flex;
              }
-
              
-
               .forma-header h1::after{
             
                content: '';
@@ -309,7 +316,7 @@
               } 
               .input-box{
                display: flex;
-                margin-bottom: 1px; 
+                margin-bottom: 1.1rem; 
                flex-direction: column;
               }
               
@@ -322,12 +329,23 @@
 
               }
               .input-box input:hover{
-                background-color: #707070;
+                background-color: #eeeeee75;
+
+              }
+              .input-box input:focus-visible{
+               outline: 1px solid #000001;
+                
+              }
+              .input-box label,
+              .gender-input h6{
+               font-size: 0,7;
+               font-weight: 600;
+               color: #000000c0;
 
               }
               .input-box input::placeholder{
-               color: #000000be;
-
+               color: #000;
+            
               }
 
               .gender-group{
@@ -344,6 +362,11 @@
               .gender-input input{
                margin-right: 0.35rem;
 
+              }
+              .gender-input label{
+               font-size: 0.81rem;
+               font-weight: 600;
+               color: #000000c0;
               }
               .compra button{
                width: 100%;
@@ -509,7 +532,7 @@
                            .contact-info p:hover{
                               color: red;
                            }
-                              .social-icon{
+                           .social-icon{
                              color: #565656;
                              margin-right: 10px;
                              font-size: 20px;
@@ -546,16 +569,39 @@
                                     .main-text h1{
                                        font-size:50px ;
                                        transition: .4s;
+                                    
                                     }
                                     .main-text p{
                                        font-size: 18px ;
                                        transition: .4s;
+                                       
                                     }
                                     .main-btn{
                                        padding: 10px 20px;
                                        transition: .4s;
+                                 
                                     }
-                                 }
+                                    .esport img{
+                                       width: 300px;
+                                       height: auto;
+                                       justify-content: center;
+                                       grid-template-columns: 1fr;
+                                    }
+                                    .Update-news img{
+                                       width: 300px;
+                                       height: auto;
+                                       justify-content: center;
+                                       grid-template-columns: 1fr;
+                                    }
+                                   .Update-news h4{
+                                    font-size: 18px;
+                                    transition: .4s;
+                                   }
+                                      
+
+                                      }
+                                 
+                                    
                                     
                                  @media(max-width:750px){
                                     .navmenu{
@@ -570,57 +616,44 @@
                                        align-items: center;
                                        padding: 120px 30px;
                                        transition: all .42s;
+                                       display: flex;
                                     }
                                     .navmenu a{
                                        display: block;
                                        font-size: 24px;
                                        margin: 18px 0;
+                                       display: flex;
                                     }
                                     
                                     .navmenu.open{
                                        right: 0;
+                                       display: flex;
                                     }
                                     }
 
-                                    @media screen and (max-width: 1300px){
+                                    @media screen and (max-width: 1330px){
                                        .form-imag {
                                           display: none;
 
                                        }
                                        .container{
                                         width: 50%; 
-                                         
-                  
-
+                                       
                                        }
                                        .forma{
                                           width: 100%;
                                        }
                                     }
-                                  @media screen and (max-width: 1200px) {
+                                  @media screen and (max-width: 1064px) {
                                     .conteiner{
-                                       width: 90%;
+                                       width: auto;
                                        height: auto;
                                     
                                     }
-                                    .input-group{
-                                        flex-direction: column; 
-                                       overflow: scroll;
-                                       flex-wrap: nowrap;
-                                       max-height: 10rem;
-                                       padding-right: 5rem;
-                                      display: grid;
-                                    }
-
-                                    .gender-input{
-                                       margin-top: 2rem;
+                                    
                                     }
                                     
-                                  }
                                     
-                                    /* @keyframes jumping{
-                                       from {transform: translatey(+15px)}
-                                       20%{transform: translatey(0)}
-                                         to {transform: translatey(+15px)}
-                                       }
-                                     */
+                                 
+                                    
+                                    
