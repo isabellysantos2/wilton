@@ -557,7 +557,7 @@ align-items: center;
 
                                 
 
-                                 @media(max-width:890px){
+                                 @media(max-width:900px){
                                     header{
                                        padding: 20px 3%;
                                        transition: .4s;
@@ -602,7 +602,7 @@ align-items: center;
                                  
                                     
                                     
-                                 @media(max-width:750px){
+                                 @media(max-width:720px){
                                     .navmenu{
                                        position: absolute;
                                        top: 100%;
