@@ -18,19 +18,20 @@ align-items: center;
     position: fixed;
     width: 100%;
     top: 0;
+    right: 0;
     z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 10%;
     background: #fff;
-    padding-inline: 16px;
+     padding-inline: 16px; 
  }
 
  .logo img{
      max-width: 130px;
     height: auto;  
-     font-size: 48px;
+      font-size: 48px; 
     
  } 
 
@@ -41,8 +42,10 @@ align-items: center;
    display: flex;
    justify-content: space-between;
    align-items: center;
+
    
 }
+
  .navmenu{
    display:flex ;
    
@@ -188,14 +191,17 @@ align-items: center;
         gap: 2rem;
     }
 
+    
+    
+
     .row{
         position: relative;
-        transition: all .40s ;
+        transition: all .30s ;
     }
     .row img{
         width: 100%;
         height: auto;
-        transition: all .40s;
+        transition: all .30s;
     }
 
     .row img:hover{
@@ -223,6 +229,8 @@ align-items: center;
          color: red;
       }
 
+      
+
       .ratting {
          color: #ff8c00;
          font-size: 18px;
@@ -241,13 +249,13 @@ align-items: center;
             font-size: 14px;
             font-weight: 600;
          }
-          /* .container{
+           .container{
             width: 80%;
             height: 80vh;
             display: flex;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, .212); */
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, .212); 
 
-          
+           }
          
       
             .client-reviews{
@@ -399,11 +407,14 @@ align-items: center;
               
              }
 
-             .continua-button button:hover{
+              .continua-button button:hover{
                background-color: #000;
+             } 
 
+             /* .nav-icon a ::selection{
+               background: transparent; 
+             }  */
 
-             }
 
              .continua-button button a{
                text-decoration: none;
@@ -618,6 +629,7 @@ align-items: center;
                                        display: flex;
                                     }
                                     .navmenu a{
+                                      
                                        display: block;
                                        font-size: 24px;
                                        margin: 18px 0;
@@ -625,9 +637,11 @@ align-items: center;
                                     }
                                     
                                     .navmenu.open{
+                                       
                                        right: 0;
                                        display: flex;
                                     }
+                                    
                                     }
 
                                     @media screen and (max-width: 1330px){
